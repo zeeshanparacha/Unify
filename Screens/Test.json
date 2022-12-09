@@ -102,6 +102,40 @@
                 "component": { "content": "Label", "type": "20002" },
                 "events": [],
                 "path": "0-0-0"
+              },
+              {
+                "id": "HGWryFhm9dYf5voa7ZVX6",
+                "status": "ACTIVE",
+                "name": "Label",
+                "attributes": {
+                  "label": "Label",
+                  "variant": "body1",
+                  "name": "Label",
+                  "mandatory": false,
+                  "layoutProperties": {
+                    "label": {
+                      "//": "Use this class to style label component."
+                    },
+                    "mainContainer": "label",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "icon": "FaFont",
+                "group": "Form",
+                "type": "20002",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 15,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Label", "type": "20002" },
+                "events": [],
+                "path": "0-0-1"
               }
             ],
             "layoutProperties": {
@@ -140,6 +174,18 @@
             "xs": 12
           },
           "componentId": "fqE3uy22aZclDY_wNm_Rq",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "HGWryFhm9dYf5voa7ZVX6",
           "componentType": "20002",
           "order": 1
         }
@@ -193,6 +239,38 @@
       }
     },
     "createdAt": "2022-12-09T11:24:05.077Z",
+    "createdBy": "haseeb",
+    "events": [],
+    "icon": "FaFont",
+    "name": "Label",
+    "status": "ACTIVE",
+    "subType": "component",
+    "type": "20002",
+    "updatedBy": "haseeb",
+    "version": "1.0.0"
+  },
+  {
+    "_id": "63931fb75e2e1f71cf5a2b71",
+    "gitBranchName": "master",
+    "id": "HGWryFhm9dYf5voa7ZVX6",
+    "projectId": "6390841c2b6b353e9c32c24c",
+    "screenId": "ivf1tErn5nKXAeghasNN1",
+    "attributes": {
+      "label": "Label",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "createdAt": "2022-12-09T11:44:55.012Z",
     "createdBy": "haseeb",
     "events": [],
     "icon": "FaFont",
