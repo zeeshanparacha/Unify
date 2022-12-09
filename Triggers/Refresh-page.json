@@ -1,0 +1,25 @@
+{
+  "createdBy": "system",
+  "updatedBy": "system",
+  "_id": "6343f94c2c8a751b189f2e33",
+  "id": "C9VAY5AImRfafaf65",
+  "name": "Refresh page",
+  "projectType": "web",
+  "services": [
+    {
+      "_id": "61dd1cc511bed557b4cb0c89",
+      "type": "14",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "61dd1cc511bed557b4cb0c99",
+        "attributes": {},
+        "type": "3"
+      }
+    }
+  ],
+  "createdAt": "11-Jan-2022",
+  "updatedAt": "11-Jan-2022",
+  "__v": 0,
+  "canRead": true
+}

@@ -1,0 +1,25 @@
+{
+  "createdBy": "system",
+  "updatedBy": "system",
+  "_id": "63247a318c5ded569ce08e69",
+  "id": "C9VAY5AImRfVpeNy7pz65",
+  "name": "Clear Form Data",
+  "projectType": "web",
+  "services": [
+    {
+      "_id": "61dd1cc511bed557b4cb0c89",
+      "type": "14",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "61dd1cc511bed557b4cb0c99",
+        "attributes": {},
+        "type": "1"
+      }
+    }
+  ],
+  "createdAt": "11-Jan-2022",
+  "updatedAt": "11-Jan-2022",
+  "__v": 0,
+  "canRead": true
+}

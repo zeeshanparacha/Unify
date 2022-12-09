@@ -1,0 +1,25 @@
+{
+  "createdBy": "system",
+  "updatedBy": "system",
+  "_id": "623189299190f7b17196eda9",
+  "id": "Bt9t0w5XUqa6DKF-Egsy4",
+  "name": "Wizard Layout Back",
+  "projectType": "web",
+  "services": [
+    {
+      "_id": "61dd1cc511bed557b4cb0c45",
+      "type": "10",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "61dd1cc511bed557b4cb0c46",
+        "attributes": {},
+        "type": "2"
+      }
+    }
+  ],
+  "createdAt": "11-Jan-2022",
+  "updatedAt": "11-Jan-2022",
+  "__v": 0,
+  "canRead": false
+}

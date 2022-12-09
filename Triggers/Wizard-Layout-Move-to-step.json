@@ -1,0 +1,25 @@
+{
+  "createdBy": "system",
+  "updatedBy": "system",
+  "_id": "623189e39190f7b17196edab",
+  "id": "C9VAY5AImRfVpeNy7pzf6",
+  "name": "Wizard Layout Move to step",
+  "projectType": "web",
+  "services": [
+    {
+      "_id": "61dd1cc511bed557b4cb0c45",
+      "type": "10",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "61dd1cc511bed557b4cb0c46",
+        "attributes": {},
+        "type": "4"
+      }
+    }
+  ],
+  "createdAt": "11-Jan-2022",
+  "updatedAt": "11-Jan-2022",
+  "__v": 0,
+  "canRead": false
+}

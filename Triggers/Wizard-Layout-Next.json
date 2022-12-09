@@ -1,0 +1,25 @@
+{
+  "createdBy": "system",
+  "updatedBy": "system",
+  "_id": "623188a69190f7b17196eda8",
+  "id": "Bt9t0w5XUqa6DKF-Egsy3",
+  "name": "Wizard Layout Next",
+  "projectType": "web",
+  "services": [
+    {
+      "_id": "61dd1cc511bed557b4cb0c45",
+      "type": "10",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "61dd1cc511bed557b4cb0c46",
+        "attributes": {},
+        "type": "1"
+      }
+    }
+  ],
+  "createdAt": "11-Jan-2022",
+  "updatedAt": "11-Jan-2022",
+  "__v": 0,
+  "canRead": false
+}

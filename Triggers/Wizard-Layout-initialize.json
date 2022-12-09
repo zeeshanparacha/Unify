@@ -1,0 +1,24 @@
+{
+  "createdBy": "system",
+  "updatedBy": "system",
+  "_id": "6226c90ad9a8405e7a6a05ac",
+  "id": "EozOaoMh2SOG67H76DpLS",
+  "name": "Wizard Layout initialize",
+  "canRead": false,
+  "services": [
+    {
+      "type": "10",
+      "//": "declare",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "63931bd0a821424940ac0829",
+        "attributes": {},
+        "type": "3"
+      }
+    }
+  ],
+  "projectType": "web",
+  "createdAt": "N/A",
+  "updatedAt": "N/A"
+}
