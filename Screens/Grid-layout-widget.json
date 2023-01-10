@@ -1,0 +1,231 @@
+[
+  {
+    "_id": "63b9f8de75958f2a21eae7d1",
+    "gitBranchName": "master",
+    "id": "MlItPvZ2jP-9BvE-LrSTs",
+    "projectId": "63b3c480b1adf0537c919a26",
+    "screenId": "MlItPvZ2jP-9BvE-LrSTs",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "utpkWYl4aQWf4HiYGWlEW",
+          "componentType": "10001",
+          "id": "utpkWYl4aQWf4HiYGWlEW",
+          "position": {
+            "i": "utpkWYl4aQWf4HiYGWlEW",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "createdAt": "2023-01-07T22:57:34.478Z",
+    "createdBy": "talha",
+    "events": [],
+    "layout": [
+      {
+        "id": "utpkWYl4aQWf4HiYGWlEW",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "group": "Layout",
+        "type": "10001",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [
+          {
+            "triggerId": "cY-1Fx1jf46ej-KpYQMkT",
+            "triggerName": "Get Datagrid",
+            "serviceType": "8",
+            "attributes": {
+              "loaderWidgetIds": [906070],
+              "messageWidgetIds": [906070],
+              "responseStateKey": "datagrid",
+              "responseReturnValue": "data",
+              "url": "datagrid",
+              "checksum": true,
+              "encryption": true,
+              "isDeviceDetails": true,
+              "loginTrigger": false,
+              "formData": false,
+              "logoutTrigger": false,
+              "headers": {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "channel_key": "001",
+                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                "locale": "en-ltr"
+              },
+              "requestBody": [],
+              "baseURL": "63b3c480b1adf0537c919a27",
+              "storeType": 2
+            },
+            "type": "1",
+            "name": "On initialization"
+          }
+        ],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": "0",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "Ohy7cFxGSuiwSTG248ZCj",
+            "gridProps": [
+              {
+                "id": "q56d1ZLesW8n75YMqvI1a",
+                "status": "ACTIVE",
+                "name": "Data table",
+                "type": "20014",
+                "attributes": {
+                  "responseStateKey": "datagrid",
+                  "layoutProperties": {
+                    "container": {
+                      "//": "Use this class to style data table container."
+                    },
+                    "rowStyle": {
+                      "//": "Use this class to style data table rows.",
+                      "color": "black",
+                      "background-color": "white",
+                      "text-align": "left"
+                    },
+                    "defaultColDefinition": {
+                      "//": "Use this class to define column definition of data table.",
+                      "sortable": true,
+                      "animateRows": false,
+                      "resizable": false,
+                      "enableValue": false,
+                      "enableRowGroup": false,
+                      "enablePivot": false,
+                      "filter": true,
+                      "type": "leftAligned",
+                      "minWidth": 30,
+                      "domLayout": "autoHeight"
+                    },
+                    "mainContainer": "container",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "defaultColDef": {
+                    "sortable": true,
+                    "animateRows": false,
+                    "resizable": false,
+                    "enableValue": false,
+                    "enableRowGroup": false,
+                    "enablePivot": false,
+                    "filter": true,
+                    "type": "leftAligned",
+                    "minWidth": 30,
+                    "domLayout": "autoHeight"
+                  },
+                  "rowStyle": {
+                    "color": "black",
+                    "background-color": "white",
+                    "text-align": "left"
+                  },
+                  "columnDefinition": [
+                    {
+                      "typeTemp": { "name": "Text", "type": "text" },
+                      "headerName": "field",
+                      "field": "field",
+                      "type": "text",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "headerName": "compulsory",
+                      "field": "compulsory",
+                      "type": "list",
+                      "triggerId": null
+                    },
+                    {
+                      "typeTemp": { "name": "List", "type": "list" },
+                      "headerName": "minPercentage",
+                      "field": "minPercentage",
+                      "type": "list",
+                      "triggerId": null
+                    }
+                  ],
+                  "rowDefinition": [],
+                  "debug": false,
+                  "pagination": true,
+                  "paginationPageSize": 5,
+                  "suppressCsvExport": true,
+                  "suppressExcelExport": true,
+                  "name": "Data Grid",
+                  "storeType": 2,
+                  "suppressCsvBtnTxt": "Mera button meri marzi"
+                },
+                "icon": "FaTable",
+                "group": "Advanced",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 12,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Data table", "type": "20014" },
+                "events": [],
+                "path": "0-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "name": "Grid layout widget",
+    "subType": "widget",
+    "type": "10001",
+    "updatedBy": "talha",
+    "version": "1.0.0"
+  }
+]

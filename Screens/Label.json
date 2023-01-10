@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "63b4034d6af449896eeb4320",
+    "gitBranchName": "master",
+    "id": "xbsE8OwBUcZmUK-1EYyBJ",
+    "projectId": "63b3c480b1adf0537c919a26",
+    "screenId": "NXe-7Mi7pDXIC61gLiDCk",
+    "attributes": {
+      "label": "Label",
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "createdAt": "2023-01-03T10:28:29.805Z",
+    "createdBy": "talha",
+    "events": [],
+    "icon": "FaFont",
+    "name": "Label",
+    "status": "ACTIVE",
+    "subType": "component",
+    "type": "20002",
+    "updatedBy": "talha",
+    "version": "1.0.0"
+  }
+]

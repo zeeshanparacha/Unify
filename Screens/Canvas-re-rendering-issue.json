@@ -1,0 +1,374 @@
+[
+  {
+    "_id": "63bc0f9775958f2a21eb5917",
+    "gitBranchName": "master",
+    "id": "huHrNjyUNn-a6YO1gg2gG",
+    "projectId": "63b3c480b1adf0537c919a26",
+    "screenId": "huHrNjyUNn-a6YO1gg2gG",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "DVD4Tz7O6bFmN1P7nuc0p",
+          "componentType": "10001",
+          "id": "DVD4Tz7O6bFmN1P7nuc0p",
+          "position": {
+            "i": "DVD4Tz7O6bFmN1P7nuc0p",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "createdAt": "2023-01-09T12:59:03.556Z",
+    "createdBy": "talha",
+    "events": [],
+    "layout": [
+      {
+        "id": "DVD4Tz7O6bFmN1P7nuc0p",
+        "type": "10001",
+        "name": "My fav grid",
+        "component": { "content": "Grid layout", "type": "10001" },
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layoutwehjskadowejdlkamslsds"
+        },
+        "events": [],
+        "path": "0",
+        "version": "1.0.0",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "dimensions": {
+          "widgets": 1,
+          "dndConfig": [{ "x": 0, "y": 0, "w": 6, "h": 12 }],
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12,
+          "firstTime": true
+        },
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "ty2Uff9Hmgx-DN5nA77Kh",
+            "gridProps": [
+              {
+                "id": "op_Fys5nBGwiOYlfVajkC",
+                "status": "ACTIVE",
+                "name": "Label",
+                "attributes": {
+                  "label": "Label hahaha label",
+                  "variant": "body1",
+                  "name": "Labels my label",
+                  "mandatory": false,
+                  "layoutProperties": {
+                    "label": {
+                      "//": "Use this class to style label component."
+                    },
+                    "mainContainer": "label",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "icon": "FaFont",
+                "group": "Form",
+                "type": "20002",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 15,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Label", "type": "20002" },
+                "events": [],
+                "path": "0-0-0"
+              },
+              {
+                "id": "iCM6CwW0khHL3B_SObSfD",
+                "status": "ACTIVE",
+                "name": "Password",
+                "icon": "FaKey",
+                "group": "Form",
+                "attributes": {
+                  "label": "Password",
+                  "variant": "standard",
+                  "stateName": "pass",
+                  "label-locale-key": "",
+                  "maxLength": "100",
+                  "value": "pwd pwd pass",
+                  "readOnly": false,
+                  "tooltip": "",
+                  "font-family": "Verdana",
+                  "mandatory": true,
+                  "storeType": 0,
+                  "name": "Password",
+                  "tooltipState": "",
+                  "layoutProperties": {
+                    "textField": {
+                      "//": "Use this class to style password field component."
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style password field element."
+                    },
+                    "mainContainer": "textField",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "validate": {
+                    "required": false,
+                    "errorMsg": "Password is required"
+                  }
+                },
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "type": "20008",
+                "order": 11,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Password", "type": "20008" },
+                "events": [],
+                "path": "0-0-1"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ]
+      }
+    ],
+    "name": "Canvas re-rendering issue",
+    "subType": "screen",
+    "type": "10001",
+    "updatedBy": "haseeb",
+    "version": "1.0.0"
+  },
+  {
+    "_id": "63bc0f9775958f2a21eb5918",
+    "gitBranchName": "master",
+    "id": "DVD4Tz7O6bFmN1P7nuc0p",
+    "projectId": "63b3c480b1adf0537c919a26",
+    "screenId": "huHrNjyUNn-a6YO1gg2gG",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "op_Fys5nBGwiOYlfVajkC",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "iCM6CwW0khHL3B_SObSfD",
+          "componentType": "20008",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layoutwehjskadowejdlkamslsds"
+    },
+    "createdAt": "2023-01-09T12:59:03.556Z",
+    "createdBy": "talha",
+    "events": [],
+    "layout": null,
+    "name": "My fav grid",
+    "subType": "component",
+    "type": "10001",
+    "updatedBy": "haseeb",
+    "version": "1.0.0"
+  },
+  {
+    "_id": "63bc0f9775958f2a21eb5919",
+    "gitBranchName": "master",
+    "id": "op_Fys5nBGwiOYlfVajkC",
+    "projectId": "63b3c480b1adf0537c919a26",
+    "screenId": "huHrNjyUNn-a6YO1gg2gG",
+    "attributes": {
+      "label": "Label hahaha label",
+      "variant": "body1",
+      "name": "Labels my label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "createdAt": "2023-01-09T12:59:03.556Z",
+    "createdBy": "talha",
+    "events": [],
+    "icon": "FaFont",
+    "name": "Label",
+    "status": "ACTIVE",
+    "subType": "component",
+    "type": "20002",
+    "updatedBy": "haseeb",
+    "version": "1.0.0"
+  },
+  {
+    "_id": "63bc1bd575958f2a21eb6e6b",
+    "gitBranchName": "master",
+    "id": "iCM6CwW0khHL3B_SObSfD",
+    "projectId": "63b3c480b1adf0537c919a26",
+    "screenId": "huHrNjyUNn-a6YO1gg2gG",
+    "attributes": {
+      "label": "Password",
+      "variant": "standard",
+      "stateName": "pass",
+      "label-locale-key": "",
+      "maxLength": "100",
+      "value": "pwd pwd pass",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
+      "mandatory": true,
+      "storeType": 0,
+      "name": "Password",
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": {
+          "//": "Use this class to style password field component."
+        },
+        "inputProps": {
+          "//": "Use this class to style password field element."
+        },
+        "mainContainer": "textField",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "validate": { "required": false, "errorMsg": "Password is required" }
+    },
+    "createdAt": "2023-01-09T13:51:17.876Z",
+    "createdBy": "talha",
+    "events": [],
+    "icon": "FaKey",
+    "name": "Password",
+    "status": "ACTIVE",
+    "subType": "component",
+    "type": "20008",
+    "updatedBy": "haseeb",
+    "version": "1.0.0"
+  },
+  {
+    "_id": "63bd671d75958f2a21ec59f2",
+    "gitBranchName": "master",
+    "id": "IbcUY-h28T6GGd88RwyyA",
+    "projectId": "63b3c480b1adf0537c919a26",
+    "screenId": "huHrNjyUNn-a6YO1gg2gG",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "100px",
+          "height": "100px"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "haseeb",
+        "_id": "63bd66a5ac85480478e8fd86",
+        "name": "image (1).jpg",
+        "type": "jpg",
+        "projectId": "63b3c480b1adf0537c919a26",
+        "id": "CWL67MBwaQTHYCSIYXMt7",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/image (1).jpg",
+        "canvasUrl": "web/image (1).jpg",
+        "createdAt": "2023-01-10T13:22:45.681Z",
+        "updatedAt": "2023-01-10T13:22:45.681Z",
+        "__v": 0,
+        "uri": "web/image (1).jpg"
+      },
+      "imageAssetId": "CWL67MBwaQTHYCSIYXMt7",
+      "stateName": null,
+      "storeType": null
+    },
+    "createdAt": "2023-01-10T13:24:44.945Z",
+    "createdBy": "haseeb",
+    "events": [],
+    "icon": "FaImage",
+    "name": "Image",
+    "status": "ACTIVE",
+    "subType": "component",
+    "type": "20012",
+    "updatedBy": "haseeb",
+    "version": "1.0.0"
+  }
+]

@@ -3,21 +3,23 @@
   "projectId": 1,
   "config": {
     "id": 1,
-    "name": "Git Versioning",
+    "name": "Talha Test Components",
     "version": "1.0.0",
-    "mainComponentId": "ivf1tErn5nKXAeghasNN1",
+    "mainComponentId": "huHrNjyUNn-a6YO1gg2gG",
     "locale": "en",
+    "appMode": "dev",
     "globalErrorType": "INLINE",
     "showWidgetError": true,
     "showWidgetSuccess": true,
     "autoHideMessage": false,
     "closeableMessage": true,
+    "projectTitle": "Talha Test Components",
     "modes": [
       {
         "_id": "61b3836641f0ba30405a2d90",
         "name": "Development",
         "configs": {
-          "_id": "6390841c2b6b353e9c32c24e",
+          "_id": "63b3c480b1adf0537c919a29",
           "serverPort": 3001,
           "clientPort": 3000,
           "ip": "localhost"
@@ -26,10 +28,32 @@
     ],
     "currentMode": "61b3836641f0ba30405a2d90",
     "theme": "",
-    "securityConfigurations": [],
+    "customCSS": [
+      { "cssClassName": "test2", "css": "{border:\"2px solid green\"}" },
+      { "cssClassName": "test3", "css": "{margin: 50px;}" }
+    ],
+    "securityConfigurations": [
+      {
+        "_id": "63b3c480b1adf0537c919a27",
+        "name": "baseUrl",
+        "baseUrl": "http://localhost:5100/mock/",
+        "authorizationType": "JWT",
+        "mode": "61b3836641f0ba30405a2d90",
+        "createdAt": "2023-01-10T17:39:45.949Z",
+        "updatedAt": "2023-01-10T17:39:45.949Z"
+      }
+    ],
     "autoHideDuration": 10,
     "components": [],
     "triggers": [],
-    "assets": []
+    "assets": [
+      {
+        "_id": "63bd66a5ac85480478e8fd86",
+        "name": "image (1).jpg",
+        "id": "CWL67MBwaQTHYCSIYXMt7",
+        "url": "web/image (1).jpg",
+        "uri": "web/image (1).jpg"
+      }
+    ]
   }
 }

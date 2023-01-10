@@ -1,0 +1,48 @@
+{
+  "createdBy": "talha",
+  "updatedBy": "talha",
+  "_id": "63b9e573ccc8c85014015e3f",
+  "id": "cY-1Fx1jf46ej-KpYQMkT",
+  "projectId": "63b3c480b1adf0537c919a26",
+  "gitBranchName": "master",
+  "name": "Get Datagrid data from API",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "_id": "63bc1039ccc8c850140161ac",
+      "type": "8",
+      "command": {
+        "responseHandler": [],
+        "returns": [],
+        "_id": "63bc1039ccc8c850140161ad",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "datagrid",
+          "responseReturnValue": "data",
+          "url": "datagrid",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "63b3c480b1adf0537c919a27",
+          "storeType": 2
+        },
+        "type": "5"
+      }
+    }
+  ],
+  "createdAt": "08-Jan-2023",
+  "updatedAt": "09-Jan-2023",
+  "__v": 1
+}
