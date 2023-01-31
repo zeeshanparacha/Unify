@@ -1,0 +1,54 @@
+{
+  "id": "6siAfqYVt5_K-gNJD9Ico",
+  "name": "go to screen",
+  "projectId": "63d7e98880300750f0a2a0fc",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "PTFvtnKAUrfe8ZsEwg8-P",
+          "nextWidgetId": "8we8w-kIFtiPn9GUsKazA",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "user": {
+    "projects": [],
+    "roles": ["60f58a6c781474576a80514e", "60fab08d781474576a80519e"],
+    "_id": "60f589a4ee7ad31dc2c38f47",
+    "name": "haseeb",
+    "username": "haseeb",
+    "__v": 6084,
+    "lastLoginTime": "2023-01-30T19:34:54.351Z",
+    "sessionAuthorized": true,
+    "gender": "male",
+    "status": "active",
+    "email": "haseeb.ahmed@avanzasolutions.com",
+    "createdAt": "2021-07-30T21:59:29.539Z",
+    "lastLogoutTime": "2023-01-10T13:34:28.083Z",
+    "updatedAt": "2023-01-30T19:34:54.402Z",
+    "lastSessionDuration": "00:00:14",
+    "Permission": [],
+    "sessionId": 1675107294354,
+    "resetLink": "http://localhost:3000/forgotchangepassword/U2FsdGVkX18K2GUuqtUO7lOwBHvLnjVFvnXvQM8waYSxmuFPjCN1DK28nOxUuWyMWlUdkSq7BOSDCsOQlNfXbiWCS4I5x0H3rBIpDxB7tB4v8kmZyuPYRn0z4Vh8lUY2",
+    "commits": [
+      {
+        "_id": "63bf0755fbf4965394c437ea",
+        "projectId": "63b3c480b1adf0537c919a26",
+        "isLatest": true,
+        "commit": "2023-01-11T19:00:37.553Z"
+      }
+    ]
+  },
+  "_id": "Z5Zh56XekaN-vwcS-ZpxA",
+  "updatedAt": "1/31/2023",
+  "createdAt": "1/31/2023",
+  "createdBy": "haseeb",
+  "updatedBy": "haseeb"
+}

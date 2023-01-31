@@ -1,16 +1,16 @@
 [
   {
-    "id": "NcwAYPCnhHsq0C5mfmmrn",
-    "name": "Screen 1",
+    "id": "e0DrkCw5QEOfUOgPNqD-T",
+    "name": "widget_component",
     "type": "10001",
     "attributes": {
       "gridProps": [
         {
-          "componentId": "4MdqsVFyMxGPMZTXc1qcG",
+          "componentId": "jGcetuVH1TV0sWfuntEty",
           "componentType": "10001",
-          "id": "4MdqsVFyMxGPMZTXc1qcG",
+          "id": "jGcetuVH1TV0sWfuntEty",
           "position": {
-            "i": "4MdqsVFyMxGPMZTXc1qcG",
+            "i": "jGcetuVH1TV0sWfuntEty",
             "x": null,
             "y": null,
             "w": null,
@@ -22,7 +22,7 @@
     },
     "layout": [
       {
-        "id": "4MdqsVFyMxGPMZTXc1qcG",
+        "id": "jGcetuVH1TV0sWfuntEty",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
         "name": "Grid layout",
@@ -62,10 +62,10 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "_bYi5r_tuYfSIbTNjwLis",
+            "id": "b2zS8JPzb_4iMrNfoFGIP",
             "gridProps": [
               {
-                "id": "Jh93kKu4pnNZOmB1RjNkN",
+                "id": "R5rrnnVxRqDBvursW_prI",
                 "status": "ACTIVE",
                 "name": "Label",
                 "attributes": {
@@ -113,19 +113,15 @@
       }
     ],
     "events": [],
-    "subType": "screen",
-    "screenId": "NcwAYPCnhHsq0C5mfmmrn",
-    "projectId": "63d7e3ded204a34f2833f012",
+    "subType": "widget",
+    "screenId": "e0DrkCw5QEOfUOgPNqD-T",
+    "projectId": "63d7e98880300750f0a2a0fc",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "_id": "NcwAYPCnhHsq0C5mfmmrn",
-    "createdBy": "haseeb",
-    "updatedAt": "1/30/2023",
-    "createdAt": "1/30/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "4MdqsVFyMxGPMZTXc1qcG",
+    "id": "jGcetuVH1TV0sWfuntEty",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -138,7 +134,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "Jh93kKu4pnNZOmB1RjNkN",
+          "componentId": "R5rrnnVxRqDBvursW_prI",
           "componentType": "20002",
           "order": 1
         }
@@ -163,14 +159,14 @@
     "layout": null,
     "events": [],
     "subType": "component",
-    "screenId": "NcwAYPCnhHsq0C5mfmmrn",
-    "projectId": "63d7e3ded204a34f2833f012",
+    "screenId": "e0DrkCw5QEOfUOgPNqD-T",
+    "projectId": "63d7e98880300750f0a2a0fc",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "Jh93kKu4pnNZOmB1RjNkN",
+    "id": "R5rrnnVxRqDBvursW_prI",
     "status": "ACTIVE",
     "name": "Label",
     "attributes": {
@@ -200,9 +196,9 @@
     "component": { "content": "Label", "type": "20002" },
     "events": [],
     "path": "0-0-0",
-    "screenId": "NcwAYPCnhHsq0C5mfmmrn",
+    "screenId": "e0DrkCw5QEOfUOgPNqD-T",
     "subType": "component",
-    "projectId": "63d7e3ded204a34f2833f012",
+    "projectId": "63d7e98880300750f0a2a0fc",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   }
