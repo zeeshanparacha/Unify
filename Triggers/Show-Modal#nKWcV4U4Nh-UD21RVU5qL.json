@@ -1,0 +1,23 @@
+{
+  "id": "umDd1pbBavTFPTiiFkl7a",
+  "gitBranchName": "master",
+  "name": "Show Modal",
+  "projectId": "63d7e98880300750f0a2a0fc",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "61FZb-OZRu8iLHtsNcLta",
+          "modalId": "W2ppAN0JsHAkjjIY8EBKR"
+        }
+      }
+    }
+  ],
+  "_id": "nKWcV4U4Nh-UD21RVU5qL",
+  "updatedAt": "2/3/2023",
+  "createdAt": "2/3/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}
