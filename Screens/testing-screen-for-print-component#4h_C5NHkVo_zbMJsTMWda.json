@@ -62,6 +62,64 @@
             "id": "lpPHKLAF0eFtZ5JHmTax9",
             "gridProps": [
               {
+                "id": "CLJ4x93zIw5E3kN9lYBmo",
+                "status": "ACTIVE",
+                "name": "Image",
+                "icon": "FaImage",
+                "attributes": {
+                  "name": "Image",
+                  "contentType": false,
+                  "defaultImageAssetIdTemp": {
+                    "name": "dracaena-cinnabari.jpg",
+                    "id": "CNIz67fi824LHr0ae-pOV"
+                  },
+                  "layoutProperties": {
+                    "image": {
+                      "//": "Use this class to style image component.",
+                      "width": "100px"
+                    },
+                    "mainContainer": "image",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                  "imageAssetIdTemp": {
+                    "createdBy": "areeb",
+                    "_id": "63e399221f189e5508a22fdb",
+                    "name": "logo.png",
+                    "type": "png",
+                    "projectId": "63d7e98880300750f0a2a0fc",
+                    "id": "eHFfiy6mNsg2M4--j-_EI",
+                    "gitBranchName": "master",
+                    "folderType": "web",
+                    "platform": "web",
+                    "url": "web/logo.png",
+                    "canvasUrl": "web/logo.png",
+                    "createdAt": "2023-02-08T12:44:18.332Z",
+                    "updatedAt": "2023-02-08T12:44:18.332Z",
+                    "__v": 0,
+                    "uri": "web/logo.png"
+                  },
+                  "imageAssetId": "eHFfiy6mNsg2M4--j-_EI",
+                  "stateName": null,
+                  "storeType": null
+                },
+                "group": "Form",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 0,
+                "type": "20012",
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Image", "type": "20012" },
+                "events": [],
+                "path": "0-0-0"
+              },
+              {
                 "type": "10001",
                 "name": "Grid layout",
                 "id": "6Bk2n8CGRHmeVNXvlD-cb",
@@ -1350,9 +1408,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "4h_C5NHkVo_zbMJsTMWda",
-    "createdBy": "areeb",
-    "updatedAt": "2/7/2023",
-    "createdAt": "2/7/2023",
+    "createdBy": "haseeb",
+    "updatedAt": "2/8/2023",
+    "createdAt": "2/8/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1361,6 +1419,18 @@
     "type": "10001",
     "attributes": {
       "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "CLJ4x93zIw5E3kN9lYBmo",
+          "componentType": "20012",
+          "order": 1
+        },
         {
           "componentId": "6Bk2n8CGRHmeVNXvlD-cb",
           "componentType": "10001",
@@ -1400,6 +1470,69 @@
     "screenId": "4h_C5NHkVo_zbMJsTMWda",
     "projectId": "63d7e98880300750f0a2a0fc",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "CLJ4x93zIw5E3kN9lYBmo",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "100px"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "areeb",
+        "_id": "63e399221f189e5508a22fdb",
+        "name": "logo.png",
+        "type": "png",
+        "projectId": "63d7e98880300750f0a2a0fc",
+        "id": "eHFfiy6mNsg2M4--j-_EI",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/logo.png",
+        "canvasUrl": "web/logo.png",
+        "createdAt": "2023-02-08T12:44:18.332Z",
+        "updatedAt": "2023-02-08T12:44:18.332Z",
+        "__v": 0,
+        "uri": "web/logo.png"
+      },
+      "imageAssetId": "eHFfiy6mNsg2M4--j-_EI",
+      "stateName": null,
+      "storeType": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-0",
+    "screenId": "4h_C5NHkVo_zbMJsTMWda",
+    "subType": "component",
+    "projectId": "63d7e98880300750f0a2a0fc",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
