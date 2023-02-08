@@ -1,0 +1,111 @@
+[
+  {
+    "id": "5eSKQp9o_d3QiN1OoTTof",
+    "name": "Grid layout widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "27S7UyzoT-Wc8K8dodP0V",
+          "componentType": "10001",
+          "id": "27S7UyzoT-Wc8K8dodP0V",
+          "position": {
+            "i": "27S7UyzoT-Wc8K8dodP0V",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "name": "Grid layout",
+        "id": "27S7UyzoT-Wc8K8dodP0V",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "VHYpHs5HRNE-Q38a1c6kX",
+            "gridProps": [],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "events": [],
+        "component": { "type": "10001", "content": "Grid layout" },
+        "path": "0-0-0-0-2-0-0-1-2"
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "5eSKQp9o_d3QiN1OoTTof",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "5eSKQp9o_d3QiN1OoTTof",
+    "createdBy": "areeb",
+    "updatedAt": "2/8/2023",
+    "createdAt": "2/8/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "27S7UyzoT-Wc8K8dodP0V",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "8T07Be2TVthYxFlswdmaP",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]
