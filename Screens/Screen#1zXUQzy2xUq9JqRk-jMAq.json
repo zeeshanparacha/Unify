@@ -247,11 +247,11 @@
                 "id": "vHXq3RvE_5TWgZ-PVdfLz",
                 "status": "ACTIVE",
                 "attributes": {
-                  "label": "Button",
+                  "label": "submit",
                   "variant": "contained",
                   "name": "Button",
                   "label-locale-key": "",
-                  "fullWidth": true,
+                  "fullWidth": false,
                   "layoutProperties": {
                     "button": {
                       "//": "Use this class to style button component."
@@ -295,7 +295,7 @@
                     "name": "On click"
                   }
                 ],
-                "path": "0-0-1"
+                "path": "0-0-2"
               }
             ],
             "layoutProperties": {
@@ -562,11 +562,11 @@
     "id": "vHXq3RvE_5TWgZ-PVdfLz",
     "status": "ACTIVE",
     "attributes": {
-      "label": "Button",
+      "label": "submit",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
-      "fullWidth": true,
+      "fullWidth": false,
       "layoutProperties": {
         "button": { "//": "Use this class to style button component." },
         "inputProps": { "//": "Use this class to style button element." },
@@ -599,7 +599,7 @@
         "serviceType": "1"
       }
     ],
-    "path": "0-0-1",
+    "path": "0-0-2",
     "screenId": "1zXUQzy2xUq9JqRk-jMAq",
     "subType": "component",
     "projectId": "63d7e98880300750f0a2a0fc",
