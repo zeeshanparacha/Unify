@@ -90,7 +90,8 @@
                           "mandatory": true,
                           "layoutProperties": {
                             "textField": {
-                              "//": "Use this class to style text field component."
+                              "//": "Use this class to style text field component.",
+                              "width": "50%"
                             },
                             "inputProps": {
                               "//": "Use this class to style  text field element."
@@ -155,7 +156,8 @@
                           "tooltipState": "",
                           "layoutProperties": {
                             "textField": {
-                              "//": "Use this class to style text field component."
+                              "//": "Use this class to style text field component.",
+                              "width": "50%"
                             },
                             "inputProps": {
                               "//": "Use this class to style  text field element."
@@ -460,7 +462,10 @@
       "font-family": "Verdana",
       "mandatory": true,
       "layoutProperties": {
-        "textField": { "//": "Use this class to style text field component." },
+        "textField": {
+          "//": "Use this class to style text field component.",
+          "width": "50%"
+        },
         "inputProps": { "//": "Use this class to style  text field element." },
         "mainContainer": "textField",
         "xl": 6,
@@ -510,7 +515,10 @@
       "mandatory": true,
       "tooltipState": "",
       "layoutProperties": {
-        "textField": { "//": "Use this class to style text field component." },
+        "textField": {
+          "//": "Use this class to style text field component.",
+          "width": "50%"
+        },
         "inputProps": { "//": "Use this class to style  text field element." },
         "mainContainer": "textField",
         "xl": 6,
