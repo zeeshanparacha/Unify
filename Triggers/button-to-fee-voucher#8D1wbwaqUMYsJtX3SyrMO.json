@@ -1,0 +1,26 @@
+{
+  "id": "fLcwAf-hrEMwbAagRX6kY",
+  "name": "button to fee voucher",
+  "projectId": "63d7e98880300750f0a2a0fc",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "1zXUQzy2xUq9JqRk-jMAq",
+          "nextWidgetId": "3nLq4S8NSgHzwnY7S0k5O",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "_id": "8D1wbwaqUMYsJtX3SyrMO",
+  "updatedAt": "2/13/2023",
+  "createdAt": "2/13/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

@@ -44,7 +44,7 @@
             "alignItems": "flex-start"
           },
           "direction": "row",
-          "name": "Grid layout"
+          "name": "Screen"
         },
         "group": "Layout",
         "type": "sidebarItem",
@@ -118,18 +118,21 @@
                 "component": { "content": "Button", "type": "20006" },
                 "events": [
                   {
-                    "triggerId": "dAlBjy_xbN9XjQATDHN4y",
-                    "triggerName": "Show Modal",
-                    "serviceType": "9",
+                    "triggerId": "fLcwAf-hrEMwbAagRX6kY",
+                    "triggerName": "button to fee voucher",
+                    "serviceType": "1",
                     "attributes": {
-                      "widgetId": "61FZb-OZRu8iLHtsNcLta",
-                      "modalId": "W2ppAN0JsHAkjjIY8EBKR"
+                      "fromWidgetId": "1zXUQzy2xUq9JqRk-jMAq",
+                      "nextWidgetId": "3nLq4S8NSgHzwnY7S0k5O",
+                      "gridRadioValue": "Screen",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
                     },
                     "type": "2",
                     "name": "On click"
                   }
                 ],
-                "path": "0-0-0"
+                "path": "0-0-1"
               }
             ],
             "layoutProperties": {
@@ -203,7 +206,7 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Screen"
     },
     "layout": null,
     "events": [],
@@ -264,14 +267,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "dAlBjy_xbN9XjQATDHN4y",
-        "triggerName": "Show Modal",
+        "triggerId": "fLcwAf-hrEMwbAagRX6kY",
+        "triggerName": "button to fee voucher",
         "name": "On click",
         "type": "2",
-        "serviceType": "9"
+        "serviceType": "1"
       }
     ],
-    "path": "0-0-0",
+    "path": "0-0-1",
     "screenId": "1zXUQzy2xUq9JqRk-jMAq",
     "subType": "component",
     "projectId": "63d7e98880300750f0a2a0fc",
