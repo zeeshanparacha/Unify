@@ -65,6 +65,169 @@
             "id": "FLqjX6quNgvSdcJUOfeGr",
             "gridProps": [
               {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "gwDmdlBsrRQ9f3uQKAML0",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "JqA_LSdeiXUB_d8Z4SiWw",
+                    "gridProps": [
+                      {
+                        "id": "WP5JgGl8E_9eXoytVXlfq",
+                        "status": "ACTIVE",
+                        "name": "Text Box",
+                        "attributes": {
+                          "label": "name",
+                          "name": "Text box",
+                          "label-locale-key": "",
+                          "maxLength": 20,
+                          "type": "text",
+                          "variant": "standard",
+                          "value": "",
+                          "readOnly": false,
+                          "font-family": "Verdana",
+                          "mandatory": true,
+                          "layoutProperties": {
+                            "textField": {
+                              "//": "Use this class to style text field component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style  text field element."
+                            },
+                            "mainContainer": "textField",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "validate": {
+                            "required": false,
+                            "errorMsg": "This field is required"
+                          },
+                          "placeholder": "",
+                          "stateName": "dssw"
+                        },
+                        "icon": "FaWindowMinimize",
+                        "group": "Form",
+                        "type": "20004",
+                        "Documentation": "<div>components 12344</div>",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 20,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Text Box", "type": "20004" },
+                        "events": [],
+                        "path": "0-0-0-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    }
+                  },
+                  {
+                    "type": "column",
+                    "id": "ufbvAbnFt7v7pgReGdq6W",
+                    "gridProps": [
+                      {
+                        "id": "37KbctsBbXMOIkqIpcedy",
+                        "status": "ACTIVE",
+                        "name": "Text Box",
+                        "attributes": {
+                          "label": "last name",
+                          "name": "Text box",
+                          "label-locale-key": "",
+                          "maxLength": 20,
+                          "type": "text",
+                          "variant": "standard",
+                          "value": "",
+                          "readOnly": false,
+                          "tooltip": "",
+                          "font-family": "Verdana",
+                          "mandatory": true,
+                          "tooltipState": "",
+                          "layoutProperties": {
+                            "textField": {
+                              "//": "Use this class to style text field component."
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style  text field element."
+                            },
+                            "mainContainer": "textField",
+                            "xl": 6,
+                            "lg": 6,
+                            "md": 6,
+                            "sm": 6,
+                            "xs": 6
+                          },
+                          "validate": {
+                            "required": false,
+                            "errorMsg": "This field is required"
+                          },
+                          "placeholder": "",
+                          "stateName": "sdsw"
+                        },
+                        "icon": "FaWindowMinimize",
+                        "group": "Form",
+                        "type": "20004",
+                        "Documentation": "<div>components 12344</div>",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 20,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Text Box", "type": "20004" },
+                        "events": [],
+                        "path": "0-0-0-1-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 6,
+                      "lg": 6,
+                      "md": 6,
+                      "sm": 6,
+                      "xs": 6
+                    }
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" }
+              },
+              {
                 "id": "W2ppAN0JsHAkjjIY8EBKR",
                 "type": "20031",
                 "triggerName": "Show Modal",
@@ -167,6 +330,25 @@
     "attributes": {
       "gridProps": [
         {
+          "componentId": "gwDmdlBsrRQ9f3uQKAML0",
+          "componentType": "10001",
+          "id": "gwDmdlBsrRQ9f3uQKAML0",
+          "position": {
+            "i": "gwDmdlBsrRQ9f3uQKAML0",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        },
+        {
           "layoutProperties": {
             "xl": 12,
             "lg": 12,
@@ -214,6 +396,149 @@
     "screenId": "1zXUQzy2xUq9JqRk-jMAq",
     "projectId": "63d7e98880300750f0a2a0fc",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "gwDmdlBsrRQ9f3uQKAML0",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "WP5JgGl8E_9eXoytVXlfq",
+          "componentType": "20004",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 6, "lg": 6, "md": 6, "sm": 6, "xs": 6 },
+          "componentId": "37KbctsBbXMOIkqIpcedy",
+          "componentType": "20004",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "1zXUQzy2xUq9JqRk-jMAq",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "WP5JgGl8E_9eXoytVXlfq",
+    "status": "ACTIVE",
+    "name": "Text Box",
+    "attributes": {
+      "label": "name",
+      "name": "Text box",
+      "label-locale-key": "",
+      "maxLength": 20,
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "font-family": "Verdana",
+      "mandatory": true,
+      "layoutProperties": {
+        "textField": { "//": "Use this class to style text field component." },
+        "inputProps": { "//": "Use this class to style  text field element." },
+        "mainContainer": "textField",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "validate": { "required": false, "errorMsg": "This field is required" },
+      "placeholder": "",
+      "stateName": "dssw"
+    },
+    "icon": "FaWindowMinimize",
+    "group": "Form",
+    "type": "20004",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Text Box", "type": "20004" },
+    "events": [],
+    "path": "0-0-0-0-0",
+    "screenId": "1zXUQzy2xUq9JqRk-jMAq",
+    "subType": "component",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "37KbctsBbXMOIkqIpcedy",
+    "status": "ACTIVE",
+    "name": "Text Box",
+    "attributes": {
+      "label": "last name",
+      "name": "Text box",
+      "label-locale-key": "",
+      "maxLength": 20,
+      "type": "text",
+      "variant": "standard",
+      "value": "",
+      "readOnly": false,
+      "tooltip": "",
+      "font-family": "Verdana",
+      "mandatory": true,
+      "tooltipState": "",
+      "layoutProperties": {
+        "textField": { "//": "Use this class to style text field component." },
+        "inputProps": { "//": "Use this class to style  text field element." },
+        "mainContainer": "textField",
+        "xl": 6,
+        "lg": 6,
+        "md": 6,
+        "sm": 6,
+        "xs": 6
+      },
+      "validate": { "required": false, "errorMsg": "This field is required" },
+      "placeholder": "",
+      "stateName": "sdsw"
+    },
+    "icon": "FaWindowMinimize",
+    "group": "Form",
+    "type": "20004",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 20,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Text Box", "type": "20004" },
+    "events": [],
+    "path": "0-0-0-1-0",
+    "screenId": "1zXUQzy2xUq9JqRk-jMAq",
+    "subType": "component",
+    "projectId": "63d7e98880300750f0a2a0fc",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
