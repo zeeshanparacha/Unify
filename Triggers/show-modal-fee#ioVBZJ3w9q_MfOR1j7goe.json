@@ -1,0 +1,24 @@
+{
+  "id": "ZIWaeu531ZkqStWG0QA0Z",
+  "_id": "ioVBZJ3w9q_MfOR1j7goe",
+  "gitBranchName": "master",
+  "name": "show modal fee",
+  "old_name": "show modal fee",
+  "projectId": "63d7e98880300750f0a2a0fc",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "tH34OMr6HL7EpmYHsApNh",
+          "modalId": "cnFZ93Q-R7h6uIAkCYFPK"
+        }
+      }
+    }
+  ],
+  "updatedAt": "2/13/2023",
+  "createdAt": "2/13/2023",
+  "createdBy": "areeb",
+  "updatedBy": "areeb"
+}

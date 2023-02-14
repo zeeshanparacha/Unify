@@ -6,6 +6,7 @@
     "attributes": {
       "gridProps": [
         {
+<<<<<<< Updated upstream
           "componentId": "gbRTfLiojXH0Gr7BmfOc6",
           "componentType": "10001",
           "id": "gbRTfLiojXH0Gr7BmfOc6",
@@ -24,6 +25,13 @@
           "id": "jtcEuTWDJ9nEdC0_4Fge6",
           "position": {
             "i": "jtcEuTWDJ9nEdC0_4Fge6",
+=======
+          "componentId": "HWPMzwUz2Mi4v0ywu4DX_",
+          "componentType": "10001",
+          "id": "HWPMzwUz2Mi4v0ywu4DX_",
+          "position": {
+            "i": "HWPMzwUz2Mi4v0ywu4DX_",
+>>>>>>> Stashed changes
             "x": null,
             "y": null,
             "w": null,
@@ -49,6 +57,7 @@
     "layout": [
       {
         "type": "10001",
+<<<<<<< Updated upstream
         "id": "gbRTfLiojXH0Gr7BmfOc6",
         "gridProps": [
           {
@@ -57,6 +66,16 @@
             "gridProps": [
               {
                 "id": "egsCd--794YKeod7DbuD7",
+=======
+        "id": "HWPMzwUz2Mi4v0ywu4DX_",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "_g2JXSFUiJrsqfUCcuwx0",
+            "gridProps": [
+              {
+                "id": "cnFZ93Q-R7h6uIAkCYFPK",
+>>>>>>> Stashed changes
                 "name": "show modal fee",
                 "type": "20031",
                 "attributes": {
@@ -70,6 +89,7 @@
         ]
       },
       {
+<<<<<<< Updated upstream
         "type": "10001",
         "id": "jtcEuTWDJ9nEdC0_4Fge6",
         "gridProps": [
@@ -92,6 +112,8 @@
         ]
       },
       {
+=======
+>>>>>>> Stashed changes
         "id": "0CDCNeS2SSPvNhB85Cyc1",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
@@ -121,13 +143,26 @@
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
-        "events": [],
+        "events": [
+          {
+            "triggerId": "ZIWaeu531ZkqStWG0QA0Z",
+            "triggerName": "show modal fee",
+            "serviceType": "9",
+            "attributes": {
+              "widgetId": "tH34OMr6HL7EpmYHsApNh",
+              "modalId": "cnFZ93Q-R7h6uIAkCYFPK"
+            },
+            "type": "2",
+            "name": "On click"
+          }
+        ],
         "order": 1,
         "version": "1.0.0",
         "isLatest": true,
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
+<<<<<<< Updated upstream
         "path": "2",
         "gridProps": [
           {
@@ -151,6 +186,15 @@
                 "component": { "type": "20031" }
               },
               {
+=======
+        "path": "0",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "8bZogv4vavRREsv9R_Gf3",
+            "gridProps": [
+              {
+>>>>>>> Stashed changes
                 "id": "OozAdzXDowdAPL8FhsVvl",
                 "status": "ACTIVE",
                 "attributes": {
@@ -313,6 +357,44 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "HWPMzwUz2Mi4v0ywu4DX_",
+    "name": "Component",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {},
+          "componentId": "cnFZ93Q-R7h6uIAkCYFPK",
+          "componentType": "20031",
+          "order": 1
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "XlfnYTEcJDKDQyuy_E24p",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "cnFZ93Q-R7h6uIAkCYFPK",
+    "name": "show modal fee",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "tH34OMr6HL7EpmYHsApNh",
+      "layoutProperties": {}
+    },
+    "component": { "type": "20031" },
+    "screenId": "XlfnYTEcJDKDQyuy_E24p",
+    "subType": "component",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "0CDCNeS2SSPvNhB85Cyc1",
     "name": "Grid layout",
     "type": "10001",
@@ -326,6 +408,7 @@
             "sm": 12,
             "xs": 12
           },
+<<<<<<< Updated upstream
           "componentId": "1eV9B9Fm7SpHq9a4UB1Vq",
           "componentType": "20031",
           "order": 1
@@ -338,6 +421,8 @@
             "sm": 12,
             "xs": 12
           },
+=======
+>>>>>>> Stashed changes
           "componentId": "OozAdzXDowdAPL8FhsVvl",
           "componentType": "20006",
           "order": 1
@@ -361,7 +446,14 @@
       "name": "Grid layout"
     },
     "layout": null,
-    "events": [],
+    "events": [
+      {
+        "triggerId": "ZIWaeu531ZkqStWG0QA0Z",
+        "triggerName": "show modal fee",
+        "name": "On click",
+        "type": "2"
+      }
+    ],
     "subType": "component",
     "screenId": "XlfnYTEcJDKDQyuy_E24p",
     "projectId": "63d7e98880300750f0a2a0fc",
@@ -370,6 +462,7 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+<<<<<<< Updated upstream
     "id": "1eV9B9Fm7SpHq9a4UB1Vq",
     "type": "20031",
     "triggerName": "Show Modal",
@@ -386,6 +479,8 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+=======
+>>>>>>> Stashed changes
     "id": "OozAdzXDowdAPL8FhsVvl",
     "status": "ACTIVE",
     "attributes": {
