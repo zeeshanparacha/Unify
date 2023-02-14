@@ -6,6 +6,32 @@
     "attributes": {
       "gridProps": [
         {
+          "componentId": "gbRTfLiojXH0Gr7BmfOc6",
+          "componentType": "10001",
+          "id": "gbRTfLiojXH0Gr7BmfOc6",
+          "position": {
+            "i": "gbRTfLiojXH0Gr7BmfOc6",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        },
+        {
+          "componentId": "jtcEuTWDJ9nEdC0_4Fge6",
+          "componentType": "10001",
+          "id": "jtcEuTWDJ9nEdC0_4Fge6",
+          "position": {
+            "i": "jtcEuTWDJ9nEdC0_4Fge6",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        },
+        {
           "componentId": "0CDCNeS2SSPvNhB85Cyc1",
           "componentType": "10001",
           "id": "0CDCNeS2SSPvNhB85Cyc1",
@@ -21,6 +47,50 @@
       ]
     },
     "layout": [
+      {
+        "type": "10001",
+        "id": "gbRTfLiojXH0Gr7BmfOc6",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "_IxHKP5HJAarv32arEHBn",
+            "gridProps": [
+              {
+                "id": "egsCd--794YKeod7DbuD7",
+                "name": "show modal fee",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "tH34OMr6HL7EpmYHsApNh",
+                  "layoutProperties": {}
+                },
+                "component": { "type": "20031" }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "10001",
+        "id": "jtcEuTWDJ9nEdC0_4Fge6",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "tSbkjUNtAT4oK_nCM2Y1f",
+            "gridProps": [
+              {
+                "id": "FpsyNC5j4BF73FVtOtp0u",
+                "name": "Show Modal",
+                "type": "20031",
+                "attributes": {
+                  "widgetId": "tH34OMr6HL7EpmYHsApNh",
+                  "layoutProperties": {}
+                },
+                "component": { "type": "20031" }
+              }
+            ]
+          }
+        ]
+      },
       {
         "id": "0CDCNeS2SSPvNhB85Cyc1",
         "status": "ACTIVE",
@@ -47,7 +117,7 @@
           "name": "Grid layout"
         },
         "group": "Layout",
-        "type": "sidebarItem",
+        "type": "10001",
         "updatedAt": "23-Sep-2021",
         "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
         "createdAt": "24-Aug-2021",
@@ -58,18 +128,18 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": 0,
+        "path": "2",
         "gridProps": [
           {
             "type": "column",
-            "id": "2hsfRCk6BG6LbAUEw0xZL",
+            "id": "nH4AUdt_UZD2dd0h-b0xK",
             "gridProps": [
               {
-                "id": "2MiaFbDKRAZ055T1MAke_",
+                "id": "1eV9B9Fm7SpHq9a4UB1Vq",
                 "type": "20031",
-                "triggerName": "show modal fee",
+                "triggerName": "Show Modal",
                 "attributes": {
-                  "widgetId": "Xu5zzr2eKWlOuhGLmf2jy",
+                  "widgetId": "1mMKILAxg0xHhvZh7TMLP",
                   "layoutProperties": {
                     "xl": 12,
                     "lg": 12,
@@ -118,18 +188,18 @@
                 "component": { "content": "Button", "type": "20006" },
                 "events": [
                   {
-                    "triggerId": "ZIWaeu531ZkqStWG0QA0Z",
-                    "triggerName": "show modal fee",
+                    "triggerId": "jqzxsfby41hK3FbaSyb6B",
+                    "triggerName": "Show Modal",
                     "serviceType": "9",
                     "attributes": {
-                      "widgetId": "Xu5zzr2eKWlOuhGLmf2jy",
-                      "modalId": "2MiaFbDKRAZ055T1MAke_"
+                      "widgetId": "1mMKILAxg0xHhvZh7TMLP",
+                      "modalId": "1eV9B9Fm7SpHq9a4UB1Vq"
                     },
-                    "type": "4",
-                    "name": "On Submit"
+                    "type": "2",
+                    "name": "On click"
                   }
                 ],
-                "path": "0-0-1"
+                "path": "2-0-0"
               }
             ],
             "layoutProperties": {
@@ -138,11 +208,20 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            },
-            "path": "0-0"
+            }
           }
         ],
-        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
       }
     ],
     "events": [],
@@ -152,9 +231,85 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "XlfnYTEcJDKDQyuy_E24p",
-    "createdBy": "areeb",
-    "updatedAt": "2/13/2023",
-    "createdAt": "2/13/2023",
+    "createdBy": "haseeb",
+    "updatedAt": "2/14/2023",
+    "createdAt": "2/14/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "gbRTfLiojXH0Gr7BmfOc6",
+    "name": "Component",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {},
+          "componentId": "egsCd--794YKeod7DbuD7",
+          "componentType": "20031",
+          "order": 1
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "XlfnYTEcJDKDQyuy_E24p",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "egsCd--794YKeod7DbuD7",
+    "name": "show modal fee",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "tH34OMr6HL7EpmYHsApNh",
+      "layoutProperties": {}
+    },
+    "component": { "type": "20031" },
+    "screenId": "XlfnYTEcJDKDQyuy_E24p",
+    "subType": "component",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "jtcEuTWDJ9nEdC0_4Fge6",
+    "name": "Component",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {},
+          "componentId": "FpsyNC5j4BF73FVtOtp0u",
+          "componentType": "20031",
+          "order": 1
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "XlfnYTEcJDKDQyuy_E24p",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "FpsyNC5j4BF73FVtOtp0u",
+    "name": "Show Modal",
+    "type": "20031",
+    "attributes": {
+      "widgetId": "tH34OMr6HL7EpmYHsApNh",
+      "layoutProperties": {}
+    },
+    "component": { "type": "20031" },
+    "screenId": "XlfnYTEcJDKDQyuy_E24p",
+    "subType": "component",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "version": "1.0.0",
+    "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -171,7 +326,7 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "2MiaFbDKRAZ055T1MAke_",
+          "componentId": "1eV9B9Fm7SpHq9a4UB1Vq",
           "componentType": "20031",
           "order": 1
         },
@@ -215,11 +370,11 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "2MiaFbDKRAZ055T1MAke_",
+    "id": "1eV9B9Fm7SpHq9a4UB1Vq",
     "type": "20031",
-    "triggerName": "show modal fee",
+    "triggerName": "Show Modal",
     "attributes": {
-      "widgetId": "Xu5zzr2eKWlOuhGLmf2jy",
+      "widgetId": "1mMKILAxg0xHhvZh7TMLP",
       "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
     },
     "component": { "type": "20031" },
@@ -264,14 +419,14 @@
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
-        "triggerId": "ZIWaeu531ZkqStWG0QA0Z",
-        "triggerName": "show modal fee",
-        "name": "On Submit",
-        "type": "4",
+        "triggerId": "jqzxsfby41hK3FbaSyb6B",
+        "triggerName": "Show Modal",
+        "name": "On click",
+        "type": "2",
         "serviceType": "9"
       }
     ],
-    "path": "0-0-1",
+    "path": "2-0-0",
     "screenId": "XlfnYTEcJDKDQyuy_E24p",
     "subType": "component",
     "projectId": "63d7e98880300750f0a2a0fc",
