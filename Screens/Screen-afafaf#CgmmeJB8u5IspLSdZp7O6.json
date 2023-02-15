@@ -97,6 +97,40 @@
                 "component": { "content": "Label", "type": "20002" },
                 "events": [],
                 "path": "0-0-0"
+              },
+              {
+                "id": "VgsO_uSyE-oaQFNsuCIr_",
+                "status": "ACTIVE",
+                "name": "Label",
+                "attributes": {
+                  "label": "Label zeeshan",
+                  "variant": "body1",
+                  "name": "zeeshan labvel",
+                  "mandatory": false,
+                  "layoutProperties": {
+                    "label": {
+                      "//": "Use this class to style label component."
+                    },
+                    "mainContainer": "label",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "icon": "FaFont",
+                "group": "Form",
+                "type": "20002",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 15,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Label", "type": "20002" },
+                "events": [],
+                "path": "0-0-1"
               }
             ],
             "layoutProperties": {
@@ -119,7 +153,7 @@
     "version": "1.0.0",
     "gitBranchName": "dev",
     "_id": "CgmmeJB8u5IspLSdZp7O6",
-    "createdBy": "talha",
+    "createdBy": "haseeb",
     "updatedAt": "2/15/2023",
     "createdAt": "2/15/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -139,6 +173,18 @@
             "xs": 12
           },
           "componentId": "R_qRAHBdEvnfWNxyeszJh",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "VgsO_uSyE-oaQFNsuCIr_",
           "componentType": "20002",
           "order": 1
         }
@@ -200,6 +246,43 @@
     "component": { "content": "Label", "type": "20002" },
     "events": [],
     "path": "0-0-0",
+    "screenId": "CgmmeJB8u5IspLSdZp7O6",
+    "subType": "component",
+    "projectId": "63d7e98880300750f0a2a0fc",
+    "gitBranchName": "dev",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "VgsO_uSyE-oaQFNsuCIr_",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "label": "Label zeeshan",
+      "variant": "body1",
+      "name": "zeeshan labvel",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-1",
     "screenId": "CgmmeJB8u5IspLSdZp7O6",
     "subType": "component",
     "projectId": "63d7e98880300750f0a2a0fc",
